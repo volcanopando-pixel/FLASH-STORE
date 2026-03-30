@@ -164,7 +164,7 @@ body, html {
         <div class="product-box">
             <img src="https://tr.rbxcdn.com/180DAY-9515ea71465dcb6054c371352bb1a5be/420/420/BackAccessory/Webp/noFilter">
             <h3>GARAMA & MADUNDUNG</h3>
-            <p>Price: 4$</p>
+            <p>Price: 4.5$</p>
             <p id="stock1"></p>
             <button class="buy-btn" onclick="openPage('steps')">PURCHASE</button>
         </div>
@@ -220,7 +220,7 @@ function closePage(id){ document.getElementById(id).style.display='none'; }
 
 function loadStock(){
     let s1 = localStorage.getItem("stock1") || 10;
-    let s2 = localStorage.getItem("stock2") || 5;
+    let s2 = localStorage.getItem("stock2") || 3;
 
     updateStock("stock1", s1);
     updateStock("stock2", s2);
